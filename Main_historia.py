@@ -109,7 +109,22 @@ for elemento in lista_historia:
         print("respuesta invalida, responder con lo pedido")
         print(elemento)
         rta = input("ingrese su respuesta: ")
+    lista_rtas.append(rta)
+    
+# llamar a finales para imprimir el final
+
+diccio_cont = clasif_rtas(lista_rtas, diccio_indice) #hacer diccio indice
+
+max_raisec = 0
+for claves in diccio_cont:
+    if diccio_cont[clave] > max_raisec:
+        max_raisec = diccio_cont[clave]
+        diccio_max_raisec = {clave: max_raisec}
+
         
+
+
+
 
 
 
