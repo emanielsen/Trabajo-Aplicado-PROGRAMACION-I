@@ -100,7 +100,16 @@ lista_historia = [
     # 29
     'Se está haciendo tarde y es el momento de soplar las velas. El cumpleañero les agradece a todos por preparar la fiesta sorpresa, porque la disfrutó mucho y la pasó muy bien.\nFIN',]
 
+lista_rtas =[]
 
+for elemento in lista_historia:
+    print(elemento)
+    rta = input("ingrese su respuesta: ")
+    while rta not in ["a","b","1","2","3","4","5","6","7"]:
+        print("respuesta invalida, responder con lo pedido")
+        print(elemento)
+        rta = input("ingrese su respuesta: ")
+        
 
 
 
