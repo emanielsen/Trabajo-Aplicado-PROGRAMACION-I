@@ -1,7 +1,14 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Jun 12 15:52:42 2026
+import pandas as pd
+from src.Clasif_rtas import clasif_rtas
 
-@author: Tomas Lopez Durand
-"""
+
+archivo = 'data/base_datos_holland_carreras_5000.xlsx'
+df = pd.read_excel(archivo)
+df = pd.read_excel(archivo)
+
+
+
+
+
+
 
