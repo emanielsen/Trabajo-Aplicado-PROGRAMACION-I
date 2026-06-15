@@ -104,7 +104,7 @@ lista_rtas =[]
 
 for elemento in lista_historia:
     print(elemento)
-    rta = input("ingrese su respuesta: ")
+    rta = input("Ingrese su respuesta: ")
     while rta not in ["a","b","1","2","3","4","5","6","7"]:
         print("respuesta invalida, responder con lo pedido")
         print(elemento)
@@ -112,7 +112,7 @@ for elemento in lista_historia:
     lista_rtas.append(rta)
     
 # llamar a finales para imprimir el final
-diccio_indice = {R: ,A: , I: ,S: ,E: , C: } #completar
+diccio_indice = {"R":"", "A":"", "I":"", "S":"", "E":"", "C":"" } #completar
 diccio_cont = clasif_rtas(lista_rtas, diccio_indice) 
 
 max_raisec = 0
