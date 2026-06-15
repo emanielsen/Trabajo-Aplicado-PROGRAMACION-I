@@ -62,42 +62,45 @@ lista_historia = [
     'En caso que se rompa o dañe algún aparato u objeto en el cumpleaños,n\ ¿qué tan dispuesto/preparado estás para arreglarlo?\nResponde del 1-7 (1 siendo poco y 7 siendo mucho)',
     
     # 17
+    'Qué tanto te propondrías reunir la información de las personas que asistirán al cumpleaños, para organizar a los invitados en una lista?n\Responde del 1-7 (1 siendo poco y 7 siendo mucho)',
+    #18
     'Es el día del cumpleaños. Tus amigos y vos decidieron hacer la fiesta sorpresa en el patio de tu casa, por mayoría de votación.\n¿Te gusta estar a diario al aire libre?\na) Sí\nb) No',
-    
-    # 18
-    'Notás que la organización de los preparativos podría ser más eficiente si alguno toma el rol de guiar o supervisar al resto, ya que hay poco tiempo y mucho para hacer.\nPreferís:\na) Supervisar al resto\nb) Tener instrucciones claras que seguir',
+
     
     # 19
-    'Tu tarea consiste en poner la mesa, inflar globos y ordenar un poco tu patio. Son bastantes cosas que hacer en poco tiempo.\n¿Qué tanto te gustaría hacer cada tarea con cuidado, paso a paso, incluso con el tiempo limitado?\nResponde del 1-7 (1 siendo poco y 7 siendo mucho)',
+    'Notás que la organización de los preparativos podría ser más eficiente si alguno toma el rol de guiar o supervisar al resto, ya que hay poco tiempo y mucho para hacer.\nPreferís:\na) Supervisar al resto\nb) Tener instrucciones claras que seguir',
     
     # 20
-    'Tenés que ir a buscar los globos para inflar de tres colores distintos. Te das cuenta que no hay cantidades iguales de cada color. Querés ponerlos a cierta distancia, llenando las paredes o postes donde podés colocarlos, usando la menor cantidad de globos.\n¿Te gusta este tipo de trabajo con números y eficiencia?\na) Sí\nb) No',
+    'Tu tarea consiste en poner la mesa, inflar globos y ordenar un poco tu patio. Son bastantes cosas que hacer en poco tiempo.\n¿Qué tanto te gustaría hacer cada tarea con cuidado, paso a paso, incluso con el tiempo limitado?\nResponde del 1-7 (1 siendo poco y 7 siendo mucho)',
     
     # 21
-    'Empiezan a organizar los preparativos, y uno de tus amigos está colgando unas guirnaldas. Ves que no está alcanzando a colgarlas, porque es más bajo. Podrías ayudarlo ahora, pero aún tenés mucho que hacer por tu parte.\n¿Qué tanto considerás ayudar a tu amigo o, en cambio, asumís que se las puede arreglar solo?\nResponde del 1-7 (1 siendo poco y 7 siendo mucho)',
+    'Tenés que ir a buscar los globos para inflar de tres colores distintos. Te das cuenta que no hay cantidades iguales de cada color. Querés ponerlos a cierta distancia, llenando las paredes o postes donde podés colocarlos, usando la menor cantidad de globos.\n¿Te gusta este tipo de trabajo con números y eficiencia?\na) Sí\nb) No',
     
     # 22
-    'Con tus amigos deciden escribirle una cartita o dedicatoria pegada al envoltorio del regalo. Alguien debe encargarse de eso.\n¿Se te da bien escribir este tipo de cosas?\na) Sí\nb) No',
+    'Empiezan a organizar los preparativos, y uno de tus amigos está colgando unas guirnaldas. Ves que no está alcanzando a colgarlas, porque es más bajo. Podrías ayudarlo ahora, pero aún tenés mucho que hacer por tu parte.\n¿Qué tanto considerás ayudar a tu amigo o, en cambio, asumís que se las puede arreglar solo?\nResponde del 1-7 (1 siendo poco y 7 siendo mucho)',
     
     # 23
-    'Terminan de preparar todo para la fiesta y ya se hace la hora del cumpleaños. Llegan el cumpleañero y más amigos.\n¿Usualmente qué tan seguido inicias las conversaciones con la gente?\nResponde del 1-7 (1 siendo poco y 7 siendo mucho)',
+    'Con tus amigos deciden escribirle una cartita o dedicatoria pegada al envoltorio del regalo. Alguien debe encargarse de eso.\n¿Se te da bien escribir este tipo de cosas?\na) Sí\nb) No',
     
     # 24
-    'Te das cuenta que el cumpleañero se está acercando al lugar donde escondieron su regalo para dárselo después. Rápidamente debés improvisar para dirigirlo hacia otro lado, así no se da cuenta de la sorpresa.\n¿Se te da bien crear historias ficticias para, en este caso, improvisar y hacer que el regalo no sea descubierto?\na) Sí\nb) No',
+    'Terminan de preparar todo para la fiesta y ya se hace la hora del cumpleaños. Llegan el cumpleañero y más amigos.\n¿Usualmente qué tan seguido inicias las conversaciones con la gente?\nResponde del 1-7 (1 siendo poco y 7 siendo mucho)',
     
     # 25
-    'Afortunadamente, lograste disuadir al cumpleañero. Pero al volver, se tropieza con el cable del parlante, entonces se caen el parlante y el cumpleañero al piso. Rápidamente van con dos amigos a ver si está bien.\n¿Qué tan bien se te da ocuparte de los demás?\nResponde del 1-7 (1 siendo poco y 7 siendo mucho)',
+    'Te das cuenta que el cumpleañero se está acercando al lugar donde escondieron su regalo para dárselo después. Rápidamente debés improvisar para dirigirlo hacia otro lado, así no se da cuenta de la sorpresa.\n¿Se te da bien crear historias ficticias para, en este caso, improvisar y hacer que el regalo no sea descubierto?\na) Sí\nb) No',
     
     # 26
-    'Por suerte, tu amigo apenas se raspó y está bien. El que no está bien es el parlante, que ahora no funciona. Entonces proponen que alguien lo arregle para que la fiesta no se quede sin música.\n¿Qué tanto te gusta estar en un ambiente donde puedas resolver problemas mecánicos o reparar aparatos de este tipo?\nResponde del 1-7 (1 siendo poco y 7 siendo mucho)',
+    'Afortunadamente, lograste disuadir al cumpleañero. Pero al volver, se tropieza con el cable del parlante, entonces se caen el parlante y el cumpleañero al piso. Rápidamente van con dos amigos a ver si está bien.\n¿Qué tan bien se te da ocuparte de los demás?\nResponde del 1-7 (1 siendo poco y 7 siendo mucho)',
     
     # 27
-    'Aunque intentan arreglarlo, no lo logran. Te acordás que en el ático de tu casa hay una guitarra vieja y un piano. Podría alguien (o vos mismo) animarse a tocar un instrumento.\n¿Qué tanto disfrutás de tocar un instrumento musical?\nResponde del 1-7 (1 siendo poco y 7 siendo mucho)',
+    'Por suerte, tu amigo apenas se raspó y está bien. El que no está bien es el parlante, que ahora no funciona. Entonces proponen que alguien lo arregle para que la fiesta no se quede sin música.\n¿Qué tanto te gusta estar en un ambiente donde puedas resolver problemas mecánicos o reparar aparatos de este tipo?\nResponde del 1-7 (1 siendo poco y 7 siendo mucho)',
     
     # 28
-    'Vas al ático a ver si estaban los instrumentos. Afortunadamente, siguen ahí. Otra persona se ofreció a tocar música, ya que te avisaron que varias guirnaldas se descolgaron y salieron volando por el viento.n\¿Qué tanto te propondrías a armar nuevas guirnaldas y a hacer manualidades?\n Responde del 1-7 (1 siendo poco y 7 siendo mucho)',
+    'Aunque intentan arreglarlo, no lo logran. Te acordás que en el ático de tu casa hay una guitarra vieja y un piano. Podría alguien (o vos mismo) animarse a tocar un instrumento.\n¿Qué tanto disfrutás de tocar un instrumento musical?\nResponde del 1-7 (1 siendo poco y 7 siendo mucho)',
     
     # 29
+    'Vas al ático a ver si estaban los instrumentos. Afortunadamente, siguen ahí. Otra persona se ofreció a tocar música, ya que te avisaron que varias guirnaldas se descolgaron y salieron volando por el viento.n\¿Qué tanto te propondrías a armar nuevas guirnaldas y a hacer manualidades?\n Responde del 1-7 (1 siendo poco y 7 siendo mucho)',
+    
+    # 30
     'Se está haciendo tarde y es el momento de soplar las velas. El cumpleañero les agradece a todos por preparar la fiesta sorpresa, porque la disfrutó mucho y la pasó muy bien.\nFIN',]
 
 lista_rtas =[]
@@ -119,7 +122,7 @@ except IndexError as e:
 else:
     print(final)
     
-diccio_indice = {"R":, "A":, "I":, "S":, "E":, "C": } #completar
+diccio_indice = {"R":[6,16,18,27,29], "A":[11,13,23,25,28], "I":[3,4,,10,14,17], "S": [0,15,22,24,26], "E": [1,2,5,8,9], "C":[7,12,19,20,21] } 
 diccio_cont = clasif_rtas(lista_rtas, diccio_indice) 
 
 max_raisec = 0

@@ -17,7 +17,7 @@ def finales (lista_rtas):
     if lista_rtas == []:
         raise IndexError("no hay respuestas que determinen el final")
     for i in range(len(lista_rtas)):
-        if i == 0 or i == 18:
+        if i == 0 or i == 19:
             lista_finales.append(lista_rtas[i])
     if lista_rtas == ["a", "a"]:
         print("Al final, tu forma de ver las cosas hizo que la fiesta de cumpleaños saliera perfecta, pero en tu cabeza. Al querer liderar la preparación pero simultáneamente al no querer cooperar con tus amigos, al final tus amigos se quedaron frustrados porque sus ideas nunca fueron escuchadas. Esto provocó que las dificultades ocurridas sean manejadas únicamente por vos. Al menos el cumpleañero disfrutó la fiesta… no?")
