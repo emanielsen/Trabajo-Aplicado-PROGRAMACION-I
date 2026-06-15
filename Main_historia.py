@@ -112,8 +112,8 @@ for elemento in lista_historia:
     lista_rtas.append(rta)
     
 # llamar a finales para imprimir el final
-
-diccio_cont = clasif_rtas(lista_rtas, diccio_indice) #hacer diccio indice
+diccio_indice = {R: ,A: , I: ,S: ,E: , C: } #completar
+diccio_cont = clasif_rtas(lista_rtas, diccio_indice) 
 
 max_raisec = 0
 for claves in diccio_cont:
