@@ -59,7 +59,7 @@ lista_historia = [
     f'Como regalarle a {amigo3} algo hecho por ustedes es mucho trabajo, se reparten tareas.\n{amigo1} y {amigo2} no tienen muy en claro cómo hacer su parte.\n¿Te molestaría explicarles cómo hacerlas?\na) No\nb) Sí',
     
     # 16
-    'En caso que se rompa o dañe algún aparato u objeto en el cumpleaños,n\ ¿qué tanto te propondrías para arreglarlo?\nResponde del 1-7 (1 siendo poco y 7 siendo mucho)',
+    'En caso que se rompa o dañe algún aparato u objeto en el cumpleaños,n\ ¿qué tan dispuesto/preparado estás para arreglarlo?\nResponde del 1-7 (1 siendo poco y 7 siendo mucho)',
     
     # 17
     'Es el día del cumpleaños. Tus amigos y vos decidieron hacer la fiesta sorpresa en el patio de tu casa, por mayoría de votación.\n¿Te gusta estar a diario al aire libre?\na) Sí\nb) No',
