@@ -53,7 +53,7 @@ lista_historia = [
     f'¿Te gustaría dibujarle algo a {amigo3} como regalo?\na) Sí\nb) No',
     
     # 14
-    f'¿Te gustaría inventarle/armarle algo a {amigo3} (como una manualidad) como regalo?\na) Sí\nb) No',
+    f'¿Te gustaría inventarle/armarle algo a {amigo3} como regalo?\na) Sí\nb) No',
     
     # 15
     f'Como regalarle a {amigo3} algo hecho por ustedes es mucho trabajo, se reparten tareas.\n{amigo1} y {amigo2} no tienen muy en claro cómo hacer su parte.\n¿Te molestaría explicarles cómo hacerlas?\na) No\nb) Sí',
