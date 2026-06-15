@@ -14,7 +14,7 @@ lista_historia = [
     f'{amigo1}, {amigo2}, {amigo3} y vos son un grupo de amigos. ¡El cumpleaños de {amigo3} es en 10 días! Estás pensando organizarle un cumpleaños a {amigo3}:\nPreferirías:\na) Organizarlo vos solo\nb) Pedirle ayuda a {amigo1} y {amigo2}',
     
     # 1
-    'Tus amigos se enteraron y te quieren ayudar (Tus amigos justo tuvieron la misma idea, y también quieren hacer una fiesta sorpresa)\n¿Te gustaría empezar a organizarlo ahora (aunque falte bastante para la fecha)?\na) Sí\nb) No',
+    'Tus amigos se enteraron y te quieren ayudar (Tus amigos justo tuvieron la misma idea, y también quieren hacer una fiesta sorpresa)n\¿Confias en vos mismo para empezar a organizarlo ahora y llegar con todo? (aunque no falte tanto para la fecha)?\na) Sí\nb) No',
     
     # 2
     f'{amigo1} le contó a los papás de {amigo3} y ellos sugirieron arrancar hoy mismo!\nEntonces:\n¿Qué tanto preferís ser el responsable de la planificación de actividades?\nResponde del 1-7 (1 siendo poco y 7 siendo mucho)',
@@ -29,7 +29,7 @@ lista_historia = [
     'En el caso que prefieras seguir tus propias ideas (responder 1 si no fue el caso)\n¿Qué tan bueno sos convenciendo a los demás sobre tu punto de vista?\nResponde del 1-7 (1 siendo poco y 7 siendo mucho)',
     
     # 6
-    'En caso de que tengas que seguir las ideas de los demás (responder 1 si no fue el caso),\n¿Qué tanto te gustaría que las ideas sean detalladas y específicas?\nResponde del 1-7 (1 siendo poco y 7 siendo mucho)',
+    'Qué tan predispuesto/a estarías a cargar algo pesado que requiera fuerza para llevar al cumpleaños?\nResponde del 1-7 (1 siendo poco y 7 siendo mucho)',
     
     # 7
     f'A {amigo2} se le ocurrió algo para hacer:\n¿Qué tanto te gustaría que te especifiquen qué hacer de antemano?\nResponde del 1-7 (1 siendo poco y 7 siendo mucho)',
