@@ -53,7 +53,7 @@ lista_historia = [
     f'¿Te gustaría dibujarle algo a {amigo3} como regalo?\na) Sí\nb) No',
     
     # 14
-    f'Suponiendo que les quede tiempo libre extra antes de que lleguen los invitados,n\ ¿Qué tanto te pondrías a leer un libro en ese tiempo muerto?n\ Responde del 1-7 (1 siendo poco y 7 siendo mucho)',
+    'Suponiendo que les quede tiempo libre extra antes de que lleguen los invitados,n\ ¿Qué tanto te pondrías a leer un libro en ese tiempo muerto?n\ Responde del 1-7 (1 siendo poco y 7 siendo mucho)',
     
     # 15
     f'Como regalarle a {amigo3} algo hecho por ustedes es mucho trabajo, se reparten tareas.\n{amigo1} y {amigo2} no tienen muy en claro cómo hacer su parte.\n¿Te molestaría explicarles cómo hacerlas?\na) No\nb) Sí',
