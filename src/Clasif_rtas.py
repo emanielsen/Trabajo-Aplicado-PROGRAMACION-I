@@ -75,9 +75,9 @@ def sumar_autoestimacion(list_rtas, i, cont, diccio_indice):
 
 def clasif_rtas(list_rtas, diccio_indice):
     '''
-    Dentro de esta función, se va a crear el diccionario cont que contiene las iniciales de las personalidades R.A.I.S.E.C.
-    Se redirige a la función rtas_A_B o sumar_autoestimacion dependiendo de qué clase de pregunta es ya sabiendo las posiciones de los tipos de respuesta.
-    Finalmente, se sobreescribe lo que acumula el diccionario cont para así poder reutilizarlo en la siguiente iteración del for.
+    Dentro de esta función, se va a crear el diccionario "cont" que contiene las iniciales de las personalidades R.A.I.S.E.C.
+    Se redirige a la función "rtas_A_B" o "sumar_autoestimacion" dependiendo de qué clase de pregunta es ya sabiendo las posiciones de los tipos de respuesta.
+    Finalmente, se sobreescribe lo que acumula el diccionario "cont" para así poder reutilizarlo en la siguiente iteración del bucle.
 
     Parameters
     ----------
