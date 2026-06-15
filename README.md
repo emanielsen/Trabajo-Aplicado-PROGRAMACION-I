@@ -11,7 +11,7 @@ Instrucciones para ejecutar el programa:
 Librerias utilizadas: se utilizo la libreria de PANDAS y STREAMLIT
 Explicación breve de las funciones principales:
 -Finales:
--Clasif_rtas: 
+-Clasif_rtas: Se recorre la lista de respuestas y se suma valores al contador dependiendo de lo que el usuario respondió.
 -Filtrar_Dataset:
 -Diseño:
 
