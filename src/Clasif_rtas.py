@@ -1,10 +1,13 @@
 def rtas_A_B(list_rtas, i, cont, diccio_indice):
-    for e in diccio_indice.values:
-        if e == i:
-            
-    pass
+    for lista in diccio_indice:
+        for e in diccio_indice[lista]:
+            if e == i:
+                if list_rtas[i] == "a":
+                    cont[lista] += 1
+    return cont
 
 def sumar_autoestimacion(list_rtas, i, cont, diccio_indice):
+    
     pass
 
 def clasif_rtas(list_rtas, diccio_indice):
