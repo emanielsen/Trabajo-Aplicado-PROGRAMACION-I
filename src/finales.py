@@ -1,7 +1,7 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Jun 15 18:19:15 2026
-
-@author: usuario
-"""
+def finales (lista_rtas):
+    lista_finales = []
+    for i in range(len(lista_rtas)):
+        if i in [0,18]:
+            
+        
 

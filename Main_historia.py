@@ -53,13 +53,13 @@ lista_historia = [
     f'¿Te gustaría dibujarle algo a {amigo3} como regalo?\na) Sí\nb) No',
     
     # 14
-    f'¿Te gustaría inventarle/armarle algo a {amigo3} como regalo?\na) Sí\nb) No',
+    f'Suponiendo que les quede tiempo libre extra antes de que lleguen los invitados,n\ ¿Qué tanto te pondrías a leer un libro en ese tiempo muerto?n\ Responde del 1-7 (1 siendo poco y 7 siendo mucho)',
     
     # 15
     f'Como regalarle a {amigo3} algo hecho por ustedes es mucho trabajo, se reparten tareas.\n{amigo1} y {amigo2} no tienen muy en claro cómo hacer su parte.\n¿Te molestaría explicarles cómo hacerlas?\na) No\nb) Sí',
     
     # 16
-    'Deciden que trabajar juntos es más divertido y tienen que organizar en dónde se encontrarán:\n¿Qué tanto te gustaría que se juntaran en una plaza o en algún lugar al aire libre para trabajar?\nResponde del 1-7 (1 siendo poco y 7 siendo mucho)',
+    'En caso que se rompa o dañe algún aparato u objeto en el cumpleaños,n\ ¿qué tanto te propondrías para arreglarlo?\nResponde del 1-7 (1 siendo poco y 7 siendo mucho)',
     
     # 17
     'Es el día del cumpleaños. Tus amigos y vos decidieron hacer la fiesta sorpresa en el patio de tu casa, por mayoría de votación.\n¿Te gusta estar a diario al aire libre?\na) Sí\nb) No',
@@ -112,7 +112,7 @@ for elemento in lista_historia:
     lista_rtas.append(rta)
     
 # llamar a finales para imprimir el final
-diccio_indice = {"R":"", "A":"", "I":"", "S":"", "E":"", "C":"" } #completar
+diccio_indice = {"R":, "A":, "I":, "S":, "E":, "C": } #completar
 diccio_cont = clasif_rtas(lista_rtas, diccio_indice) 
 
 max_raisec = 0
