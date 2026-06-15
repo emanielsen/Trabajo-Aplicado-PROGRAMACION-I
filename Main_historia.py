@@ -95,7 +95,7 @@ lista_historia = [
     'Aunque intentan arreglarlo, no lo logran. Te acordás que en el ático de tu casa hay una guitarra vieja y un piano. Podría alguien (o vos mismo) animarse a tocar un instrumento.\n¿Qué tanto disfrutás de tocar un instrumento musical?\nResponde del 1-7 (1 siendo poco y 7 siendo mucho)',
     
     # 28
-    'Vas al ático a ver si estaban los instrumentos. Afortunadamente, siguen ahí. Como estás muy ocupado atendiendo gente, otra persona se ofreció a tocar música.\n¿Qué tanto te gusta ocuparte de los demás en el cumpleaños?\nResponde del 1-7 (1 siendo poco y 7 siendo mucho)',
+    'Vas al ático a ver si estaban los instrumentos. Afortunadamente, siguen ahí. Otra persona se ofreció a tocar música, ya que te avisaron que varias guirnaldas se descolgaron y salieron volando por el viento.n\¿Qué tanto te propondrías a armar nuevas guirnaldas y a hacer manualidades?\n Responde del 1-7 (1 siendo poco y 7 siendo mucho)',
     
     # 29
     'Se está haciendo tarde y es el momento de soplar las velas. El cumpleañero les agradece a todos por preparar la fiesta sorpresa, porque la disfrutó mucho y la pasó muy bien.\nFIN',]
