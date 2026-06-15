@@ -1,6 +1,6 @@
 import pandas as pd
 from src.Clasif_rtas import clasif_rtas
-
+from src.finales import finales
 
 archivo = 'data/base_datos_holland_carreras_5000.xlsx'
 df = pd.read_excel(archivo)
@@ -105,13 +105,20 @@ lista_rtas =[]
 for elemento in lista_historia:
     print(elemento)
     rta = input("Ingrese su respuesta: ")
-    while rta not in ["a","b","1","2","3","4","5","6","7"]:
+    while rta not in ["a","b","1","2","3","4","5","6","7"]:#cuando sepa en que posicion se tiene que responder que cosa la modifico
         print("respuesta invalida, responder con lo pedido")
         print(elemento)
         rta = input("ingrese su respuesta: ")
     lista_rtas.append(rta)
     
-# llamar a finales para imprimir el final
+
+try:
+    final = finales(lista_rtas)
+except IndexError as e:
+    print(e)
+else:
+    print(final)
+    
 diccio_indice = {"R":, "A":, "I":, "S":, "E":, "C": } #completar
 diccio_cont = clasif_rtas(lista_rtas, diccio_indice) 
 
