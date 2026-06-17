@@ -1,10 +1,23 @@
 import pandas as pd
 from src.Clasif_rtas import clasif_rtas
 from src.finales import finales
+from src.Filtrar_Dataset import filtrar_dataset
+from src.Filtrar_Dataset import metricas
+
 
 archivo = 'data/base_datos_holland_carreras_5000.xlsx'
 df = pd.read_excel(archivo)
-#llamar a filtar_dataset (cuendo sepa que me devuelve)
+nuevo_dataset = filtrar_dataset(df)
+dataset_R, dataset_A, dataset_I, dataset_S, dataset_E, dataset_C = metricas(nuevo_dataset)
+
+mapeo_datasets = {
+    'R': dataset_R,
+    'A': dataset_A,
+    'I': dataset_I,
+    'S': dataset_S,
+    'E': dataset_E,
+    'C': dataset_C}
+
 amigo1 = input("ingrese el nombre de un amigo: ")
 amigo2 = input("ingrese el nombre de otro amigo: ")
 amigo3 = input("ingrese el nombre de un tercer amigo: ")
@@ -131,7 +144,10 @@ for clave in diccio_cont:
         max_raisec = diccio_cont[clave]
         diccio_max_raisec = {clave: max_raisec}
 
-        
+if diccio_max_raisec:#chequeo q esto ande
+    letra_ganadora = list(diccio_max_raisec.keys())[0]
+    dataset_ganador = mapeo_datasets[letra_ganadora]
+
 
 
 
