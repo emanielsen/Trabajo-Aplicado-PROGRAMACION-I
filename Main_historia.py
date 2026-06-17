@@ -153,4 +153,6 @@ if diccio_max_raisec:#chequeo q esto ande
 # al diseño van a entrar diccio_cont (tds los puntos de tdas las persoalidades); diccio_max_raisec (un diccionario con la clave de la personalidad con mas puntoa y el valor son los puntos); dataset_ganador (el dataset de la personalidad con mas puntos)
 
 
-
+print(diccio_cont)
+print(diccio_max_raisec)
+print(dataset_ganador)
