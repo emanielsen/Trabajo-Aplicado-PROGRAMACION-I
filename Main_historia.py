@@ -76,9 +76,9 @@ lista_historia = [
     
     # 17
     'Qué tanto te propondrías reunir la información de las personas que asistirán al cumpleaños, para organizar a los invitados en una lista?n\Responde del 1-7 (1 siendo poco y 7 siendo mucho)',
+    
     #18
     'Es el día del cumpleaños. Tus amigos y vos decidieron hacer la fiesta sorpresa en el patio de tu casa, por mayoría de votación.\n¿Te gusta estar a diario al aire libre?\na) Sí\nb) No',
-
     
     # 19
     'Notás que la organización de los preparativos podría ser más eficiente si alguno toma el rol de guiar o supervisar al resto, ya que hay poco tiempo y mucho para hacer.\nPreferís:\na) Supervisar al resto\nb) Tener instrucciones claras que seguir',
@@ -111,10 +111,7 @@ lista_historia = [
     'Aunque intentan arreglarlo, no lo logran. Te acordás que en el ático de tu casa hay una guitarra vieja y un piano. Podría alguien (o vos mismo) animarse a tocar un instrumento.\n¿Qué tanto disfrutás de tocar un instrumento musical?\nResponde del 1-7 (1 siendo poco y 7 siendo mucho)',
     
     # 29
-    'Vas al ático a ver si estaban los instrumentos. Afortunadamente, siguen ahí. Otra persona se ofreció a tocar música, ya que te avisaron que varias guirnaldas se descolgaron y salieron volando por el viento.n\¿Qué tanto te propondrías a armar nuevas guirnaldas y a hacer manualidades?\n Responde del 1-7 (1 siendo poco y 7 siendo mucho)',
-    
-    # 30
-    'Se está haciendo tarde y es el momento de soplar las velas. El cumpleañero les agradece a todos por preparar la fiesta sorpresa, porque la disfrutó mucho y la pasó muy bien.\nFIN',]
+    'Vas al ático a ver si estaban los instrumentos. Afortunadamente, siguen ahí. Otra persona se ofreció a tocar música, ya que te avisaron que varias guirnaldas se descolgaron y salieron volando por el viento.n\¿Qué tanto te propondrías a armar nuevas guirnaldas y a hacer manualidades?\n Responde del 1-7 (1 siendo poco y 7 siendo mucho)']
 
 lista_rtas =[]
 
