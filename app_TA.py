@@ -7,7 +7,7 @@ import numpy as np
 
 
 
-def diseño (diccio_cont,dataset_ganador, letra_ganadora):
+def diseño (diccio_cont,dataset_ganador, letra_ganadora): 
     st.title("Dashboard RIASEC")
     
     
