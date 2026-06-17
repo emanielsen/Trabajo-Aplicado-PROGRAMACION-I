@@ -13,6 +13,7 @@ def finales (lista_rtas):
     print con el final correspndiente.
 
     '''
+    print('Se está haciendo tarde y es el momento de soplar las velas. El cumpleañero les agradece a todos por preparar la fiesta sorpresa, porque la disfrutó mucho y la pasó muy bien.\nFIN')
     lista_finales = []
     if lista_rtas == []:
         raise IndexError("no hay respuestas que determinen el final")
