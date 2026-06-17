@@ -93,7 +93,7 @@ def clasif_rtas(list_rtas, diccio_indice):
     '''
     cont = {"R": 0, "A": 0, "I": 0, "S": 0, "E": 0, "C": 0}
     for i in range(len(list_rtas)):
-        if i == 0:#posición
+        if (i == 0) or (i == 1) or (i == 9) or (i == 10) or (i == 12) or (i == 13) or (i == 15) or (i == 18) or (i == 19) or (i == 21) or (i == 23) or (i == 25):
             cont = rtas_A_B(list_rtas, i, cont, diccio_indice)
         else:
             cont = sumar_autoestimacion(list_rtas, i, cont, diccio_indice)
