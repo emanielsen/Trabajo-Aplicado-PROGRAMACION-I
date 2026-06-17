@@ -139,7 +139,7 @@ max_raisec = 0
 for clave in diccio_cont:
     if diccio_cont[clave] > max_raisec:
         max_raisec = diccio_cont[clave]
-        diccio_max_raisec = {clave: max_raisec}
+diccio_max_raisec = {clave: max_raisec}
 
 if diccio_max_raisec:#chequeo q esto ande
     letra_ganadora = list(diccio_max_raisec.keys())[0]
@@ -153,3 +153,4 @@ if diccio_max_raisec:#chequeo q esto ande
 print(diccio_cont)
 print(diccio_max_raisec)
 print(dataset_ganador)
+print(letra_ganadora )
