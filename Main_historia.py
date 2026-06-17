@@ -3,6 +3,7 @@ from src.Clasif_rtas import clasif_rtas
 from src.finales import finales
 from src.Filtrar_Dataset import filtrar_dataset
 from src.Filtrar_Dataset import metricas
+from app_TA import diseño
 
 
 archivo = 'data/base_datos_holland_carreras_5000.xlsx'
@@ -146,11 +147,7 @@ if diccio_max_raisec:#chequeo q esto ande
     dataset_ganador = mapeo_datasets[letra_ganadora]
 
 
+ds_diseño = diseño(diccio_cont,dataset_ganador, letra_ganadora)
 
-# al diseño van a entrar diccio_cont (tds los puntos de tdas las persoalidades); diccio_max_raisec (un diccionario con la clave de la personalidad con mas puntoa y el valor son los puntos); dataset_ganador (el dataset de la personalidad con mas puntos)
 
 
-print(diccio_cont)
-print(diccio_max_raisec)
-print(dataset_ganador)
-print(letra_ganadora )
