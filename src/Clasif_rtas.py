@@ -19,11 +19,11 @@ def rtas_A_B(list_rtas, i, cont, diccio_indice):
         Diccionario contador.
     """
     
-    for lista in diccio_indice:
-        for e in diccio_indice[lista]:
+    for clave in diccio_indice:
+        for e in diccio_indice[clave]:
             if e == i:
                 if list_rtas[i] == "a":
-                    cont[lista] += 1
+                    cont[clave] += 3
                     break
     return cont
 
