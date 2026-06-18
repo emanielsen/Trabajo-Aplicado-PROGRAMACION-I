@@ -51,26 +51,25 @@ def sumar_autoestimacion(list_rtas, i, cont, diccio_indice):
             if e == i:
                 if list_rtas[i] == "1":
                     cont[clave] += 1
-                    break
+                    return cont
                 elif list_rtas[i] == "2":
                     cont[clave] += 2
-                    break
+                    return cont
                 elif list_rtas[i] == "3":
                     cont[clave] += 3
-                    break
+                    return cont
                 elif list_rtas[i] == "4":
                     cont[clave] += 4
-                    break
+                    return cont
                 elif list_rtas[i] == "5":
                     cont[clave] += 5
-                    break
+                    return cont
                 elif list_rtas[i] == "6":
                     cont[clave] += 6
-                    break
+                    return cont
                 else:
                     cont[clave] += 7
-                    break
-    return cont
+                    return cont
 
 def clasif_rtas(list_rtas, diccio_indice):
     '''
