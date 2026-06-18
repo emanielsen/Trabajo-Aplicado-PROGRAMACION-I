@@ -46,29 +46,29 @@ def sumar_autoestimacion(list_rtas, i, cont, diccio_indice):
     cont
         Diccionario contador.
     '''
-    for lista in diccio_indice:
-        for e in diccio_indice[lista]:
+    for clave in diccio_indice:
+        for e in diccio_indice[clave]:
             if e == i:
                 if list_rtas[i] == "1":
-                    cont[lista] += 1
+                    cont[clave] += 1
                     break
                 elif list_rtas[i] == "2":
-                    cont[lista] += 2
+                    cont[clave] += 2
                     break
                 elif list_rtas[i] == "3":
-                    cont[lista] += 3
+                    cont[clave] += 3
                     break
                 elif list_rtas[i] == "4":
-                    cont[lista] += 4
+                    cont[clave] += 4
                     break
                 elif list_rtas[i] == "5":
-                    cont[lista] += 5
+                    cont[clave] += 5
                     break
                 elif list_rtas[i] == "6":
-                    cont[lista] += 6
+                    cont[clave] += 6
                     break
                 else:
-                    cont[lista] += 7
+                    cont[clave] += 7
                     break
     return cont
 
