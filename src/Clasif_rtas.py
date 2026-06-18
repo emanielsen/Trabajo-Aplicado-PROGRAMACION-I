@@ -24,8 +24,7 @@ def rtas_A_B(list_rtas, i, cont, diccio_indice):
             if e == i:
                 if list_rtas[i] == "a":
                     cont[clave] += 3
-                    break
-    return cont
+                    return cont
 
 def sumar_autoestimacion(list_rtas, i, cont, diccio_indice):
     '''
