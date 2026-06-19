@@ -3,7 +3,7 @@ from src.Clasif_rtas import clasif_rtas
 from src.finales import finales
 from src.Filtrar_Dataset import filtrar_dataset
 from src.Filtrar_Dataset import metricas
-
+from app_TA import diseño
 
 
 archivo = 'data/base_datos_holland_carreras_5000.xlsx'
@@ -116,14 +116,25 @@ lista_historia = [
 
 lista_rtas =[]
 
-for elemento in lista_historia:
-    print(elemento)
+for elemento in range(len(lista_historia)):
+    print(lista_historia[elemento])
     rta = input("Ingrese su respuesta: ")
     while rta not in ["a","b","1","2","3","4","5","6","7"]:#cuando sepa en que posicion se tiene que responder que cosa la modifico
         print("respuesta invalida, responder con lo pedido")
-        print(elemento)
+        print(lista_historia[elemento])
         rta = input("ingrese su respuesta: ")
-    lista_rtas.append(rta)
+    if elemento in [0,1,9,10,12,13,15,18,19,21,23,25]:
+        while rta not in ["a","b"]:
+            print("respuesta invalida, responder con a o b")
+            print(lista_historia[elemento])
+            rta = input("ingrese su respuesta: ")
+            lista_rtas.append(rta)
+    else:
+        while rta not in ["1","2","3","4","5","6","7"]:
+            print("respuesta invalida, responder con un numero del 1 al 7")
+            print(lista_historia[elemento])
+            rta = input("ingrese su respuesta: ")
+            lista_rtas.append(rta)
     
 
 try:
@@ -133,7 +144,7 @@ except IndexError as e:
 else:
     print(final)
     
-from app_TA import diseño
+
     
 diccio_indice = {"R":[6,16,18,27,29], "A":[11,13,23,25,28], "I":[3,4,10,14,17], "S": [0,15,22,24,26], "E": [1,2,5,8,9], "C":[7,12,19,20,21] } 
 diccio_cont = clasif_rtas(lista_rtas, diccio_indice) 
