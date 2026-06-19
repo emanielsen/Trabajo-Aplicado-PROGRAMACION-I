@@ -28,7 +28,7 @@ lista_historia = [
     f'{amigo1}, {amigo2}, {amigo3} y vos son un grupo de amigos. ¡El cumpleaños de {amigo3} es en 10 días! Estás pensando organizarle un cumpleaños a {amigo3}:\nPreferirías:\na) Organizarlo vos solo\nb) Pedirle ayuda a {amigo1} y {amigo2}',
     
     # 1
-    'Tus amigos se enteraron y te quieren ayudar (Tus amigos justo tuvieron la misma idea, y también quieren hacer una fiesta sorpresa)n\¿Confias en vos mismo para empezar a organizarlo ahora y llegar con todo? (aunque no falte tanto para la fecha)?\na) Sí\nb) No',
+    'Tus amigos se enteraron y te quieren ayudar (Tus amigos justo tuvieron la misma idea, y también quieren hacer una fiesta sorpresa)\n¿Confias en vos mismo para empezar a organizarlo ahora y llegar con todo? (aunque no falte tanto para la fecha)?\na) Sí\nb) No',
     
     # 2
     f'{amigo1} le contó a los papás de {amigo3} y ellos sugirieron arrancar hoy mismo!\nEntonces:\n¿Qué tanto preferís ser el responsable de la planificación de actividades?\nResponde del 1-7 (1 siendo poco y 7 siendo mucho)',
