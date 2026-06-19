@@ -3,7 +3,7 @@ from src.Clasif_rtas import clasif_rtas
 from src.finales import finales
 from src.Filtrar_Dataset import filtrar_dataset
 from src.Filtrar_Dataset import metricas
-from app_TA import diseño
+
 
 
 archivo = 'data/base_datos_holland_carreras_5000.xlsx'
@@ -67,13 +67,13 @@ lista_historia = [
     f'¿Te gustaría dibujarle algo a {amigo3} como regalo?\na) Sí\nb) No',
     
     # 14
-    'Suponiendo que les quede tiempo libre extra antes de que lleguen los invitados,n\ ¿Qué tanto te pondrías a leer un libro en ese tiempo muerto?n\ Responde del 1-7 (1 siendo poco y 7 siendo mucho)',
+    'Suponiendo que les quede tiempo libre extra antes de que lleguen los invitados,\n¿Qué tanto te pondrías a leer un libro en ese tiempo muerto?n\ Responde del 1-7 (1 siendo poco y 7 siendo mucho)',
     
     # 15
     f'Como regalarle a {amigo3} algo hecho por ustedes es mucho trabajo, se reparten tareas.\n{amigo1} y {amigo2} no tienen muy en claro cómo hacer su parte.\n¿Te molestaría explicarles cómo hacerlas?\na) No\nb) Sí',
     
     # 16
-    'En caso que se rompa o dañe algún aparato u objeto en el cumpleaños,n\ ¿qué tan dispuesto/preparado estás para arreglarlo?\nResponde del 1-7 (1 siendo poco y 7 siendo mucho)',
+    'En caso que se rompa o dañe algún aparato u objeto en el cumpleaños,\n¿qué tan dispuesto/preparado estás para arreglarlo?\nResponde del 1-7 (1 siendo poco y 7 siendo mucho)',
     
     # 17
     'Qué tanto te propondrías reunir la información de las personas que asistirán al cumpleaños, para organizar a los invitados en una lista?n\Responde del 1-7 (1 siendo poco y 7 siendo mucho)',
@@ -97,7 +97,7 @@ lista_historia = [
     'Con tus amigos deciden escribirle una cartita o dedicatoria pegada al envoltorio del regalo. Alguien debe encargarse de eso.\n¿Se te da bien escribir este tipo de cosas?\na) Sí\nb) No',
     
     # 24
-    'Terminan de preparar todo para la fiesta y ya se hace la hora del cumpleaños. Llegan el cumpleañero y más amigos.\n¿Usualmente qué tan seguido inicias las conversaciones con la gente?\nResponde del 1-7 (1 siendo poco y 7 siendo mucho)',
+    'Terminan de preparar todo para la fiesta y ya se hace la hora del cumpleaños. Llegan el cumpleañero y más amigos.¿Usualmente qué tan seguido inicias las conversaciones con la gente?\nResponde del 1-7 (1 siendo poco y 7 siendo mucho)',
     
     # 25
     'Te das cuenta que el cumpleañero se está acercando al lugar donde escondieron su regalo para dárselo después. Rápidamente debés improvisar para dirigirlo hacia otro lado, así no se da cuenta de la sorpresa.\n¿Se te da bien crear historias ficticias para, en este caso, improvisar y hacer que el regalo no sea descubierto?\na) Sí\nb) No',
@@ -112,29 +112,18 @@ lista_historia = [
     'Aunque intentan arreglarlo, no lo logran. Te acordás que en el ático de tu casa hay una guitarra vieja y un piano. Podría alguien (o vos mismo) animarse a tocar un instrumento.\n¿Qué tanto disfrutás de tocar un instrumento musical?\nResponde del 1-7 (1 siendo poco y 7 siendo mucho)',
     
     # 29
-    'Vas al ático a ver si estaban los instrumentos. Afortunadamente, siguen ahí. Otra persona se ofreció a tocar música, ya que te avisaron que varias guirnaldas se descolgaron y salieron volando por el viento.n\¿Qué tanto te propondrías a armar nuevas guirnaldas y a hacer manualidades?\n Responde del 1-7 (1 siendo poco y 7 siendo mucho)']
+    'Vas al ático a ver si estaban los instrumentos. Afortunadamente, siguen ahí. Otra persona se ofreció a tocar música, ya que te avisaron que varias guirnaldas se descolgaron y salieron volando por el viento.\n¿Qué tanto te propondrías a armar nuevas guirnaldas y a hacer manualidades?\n Responde del 1-7 (1 siendo poco y 7 siendo mucho)']
 
 lista_rtas =[]
 
-for elemento in range(len(lista_historia)):
-    print(lista_historia[elemento])
+for elemento in lista_historia:
+    print(elemento)
     rta = input("Ingrese su respuesta: ")
     while rta not in ["a","b","1","2","3","4","5","6","7"]:#cuando sepa en que posicion se tiene que responder que cosa la modifico
         print("respuesta invalida, responder con lo pedido")
-        print(lista_historia[elemento])
+        print(elemento)
         rta = input("ingrese su respuesta: ")
-    if elemento in [0,1,9,10,12,13,15,18,19,21,23,25]:
-        while rta not in ["a","b"]:
-            print("respuesta invalida, responder con a o b")
-            print(lista_historia[elemento])
-            rta = input("ingrese su respuesta: ")
-            lista_rtas.append(rta)
-    else:
-        while rta not in ["1","2","3","4","5","6","7"]:
-            print("respuesta invalida, responder con un numero del 1 al 7")
-            print(lista_historia[elemento])
-            rta = input("ingrese su respuesta: ")
-            lista_rtas.append(rta)
+    lista_rtas.append(rta)
     
 
 try:
@@ -143,6 +132,8 @@ except IndexError as e:
     print(e)
 else:
     print(final)
+    
+from app_TA import diseño
     
 diccio_indice = {"R":[6,16,18,27,29], "A":[11,13,23,25,28], "I":[3,4,10,14,17], "S": [0,15,22,24,26], "E": [1,2,5,8,9], "C":[7,12,19,20,21] } 
 diccio_cont = clasif_rtas(lista_rtas, diccio_indice) 
