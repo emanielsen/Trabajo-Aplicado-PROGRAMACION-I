@@ -67,7 +67,7 @@ def sumar_autoestimacion(list_rtas, i, cont, diccio_indice):
                 elif list_rtas[i] == "6":
                     cont[clave] += 6
                     return cont
-                else:
+                elif list_rtas[i] == "7":
                     cont[clave] += 7
                     return cont
 
