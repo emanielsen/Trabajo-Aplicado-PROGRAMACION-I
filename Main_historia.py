@@ -67,7 +67,7 @@ lista_historia = [
     f'¿Te gustaría dibujarle algo a {amigo3} como regalo?\na) Sí\nb) No',
     
     # 14
-    'Suponiendo que les quede tiempo libre extra antes de que lleguen los invitados,\n¿Qué tanto te pondrías a leer un libro en ese tiempo muerto?n\ Responde del 1-7 (1 siendo poco y 7 siendo mucho)',
+    'Suponiendo que les quede tiempo libre extra antes de que lleguen los invitados,\n¿Qué tanto te pondrías a leer un libro en ese tiempo muerto?\n Responde del 1-7 (1 siendo poco y 7 siendo mucho)',
     
     # 15
     f'Como regalarle a {amigo3} algo hecho por ustedes es mucho trabajo, se reparten tareas.\n{amigo1} y {amigo2} no tienen muy en claro cómo hacer su parte.\n¿Te molestaría explicarles cómo hacerlas?\na) No\nb) Sí',
@@ -76,7 +76,7 @@ lista_historia = [
     'En caso que se rompa o dañe algún aparato u objeto en el cumpleaños,\n¿qué tan dispuesto/preparado estás para arreglarlo?\nResponde del 1-7 (1 siendo poco y 7 siendo mucho)',
     
     # 17
-    'Qué tanto te propondrías reunir la información de las personas que asistirán al cumpleaños, para organizar a los invitados en una lista?n\Responde del 1-7 (1 siendo poco y 7 siendo mucho)',
+    'Qué tanto te propondrías reunir la información de las personas que asistirán al cumpleaños, para organizar a los invitados en una lista?\nResponde del 1-7 (1 siendo poco y 7 siendo mucho)',
     
     #18
     'Es el día del cumpleaños. Tus amigos y vos decidieron hacer la fiesta sorpresa en el patio de tu casa, por mayoría de votación.\n¿Te gusta estar a diario al aire libre?\na) Sí\nb) No',
