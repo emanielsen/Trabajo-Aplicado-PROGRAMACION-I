@@ -20,11 +20,12 @@ def rtas_A_B(list_rtas, i, cont, diccio_indice):
     """
     
     for clave in diccio_indice:
-        for e in diccio_indice[clave]:
-            if e == i:
-                if list_rtas[i] == "a":
-                    cont[clave] += 3
-                    return cont
+        for lista in diccio_indice[clave]:
+            for valor in lista:
+                if valor == i:
+                    if list_rtas[i] == "a":
+                        cont[clave] += 3
+                        return cont
 
 def sumar_autoestimacion(list_rtas, i, cont, diccio_indice):
     '''
@@ -47,29 +48,30 @@ def sumar_autoestimacion(list_rtas, i, cont, diccio_indice):
         Diccionario contador.
     '''
     for clave in diccio_indice:
-        for e in diccio_indice[clave]:
-            if e == i:
-                if list_rtas[i] == "1":
-                    cont[clave] += 1
-                    return cont
-                elif list_rtas[i] == "2":
-                    cont[clave] += 2
-                    return cont
-                elif list_rtas[i] == "3":
-                    cont[clave] += 3
-                    return cont
-                elif list_rtas[i] == "4":
-                    cont[clave] += 4
-                    return cont
-                elif list_rtas[i] == "5":
-                    cont[clave] += 5
-                    return cont
-                elif list_rtas[i] == "6":
-                    cont[clave] += 6
-                    return cont
-                elif list_rtas[i] == "7":
-                    cont[clave] += 7
-                    return cont
+        for lista in diccio_indice[clave]:
+            for valor in lista:
+                if valor == i:
+                    if list_rtas[i] == "1":
+                        cont[clave] += 1
+                        return cont
+                    elif list_rtas[i] == "2":
+                        cont[clave] += 2
+                        return cont
+                    elif list_rtas[i] == "3":
+                        cont[clave] += 3
+                        return cont
+                    elif list_rtas[i] == "4":
+                        cont[clave] += 4
+                        return cont
+                    elif list_rtas[i] == "5":
+                        cont[clave] += 5
+                        return cont
+                    elif list_rtas[i] == "6":
+                        cont[clave] += 6
+                        return cont
+                    elif list_rtas[i] == "7":
+                        cont[clave] += 7
+                        return cont
 
 def clasif_rtas(list_rtas, diccio_indice):
     '''
