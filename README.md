@@ -14,7 +14,7 @@ Explicación breve de las funciones principales:
 -Finales: selecciona los que final se debe otorgar, dependiendo de las respuestas de 2 preguntas especificas.
 -Clasif_rtas: Se recorre la lista de respuestas y se suma valores al contador dependiendo de lo que el usuario respondió.
 -Filtrar_Dataset:
--Diseño: se generan 3 gráficos (de barras, de torta, hexagonal) en base a las respuestas del usuario y al dataset con los 5mil participantes. Esos gráficos se pueden ver en un dashboard generado por streamlit.
+-Diseño: se generan 3 gráficos (de líneas, de torta, hexagonal) en base a las respuestas del usuario y al dataset con los 5mil participantes. Esos gráficos se pueden ver en un dashboard generado por streamlit.
 
 Diagramas de flujo: en la carpeta "guia de trabajo" se encuentran todos los diagramas de flujo y además un texto explicando el funcionamiento general (un poco mas amplio que el de acá) del código.
 
