@@ -24,8 +24,7 @@ def rtas_A_B(list_rtas, i, cont, diccio_indice):
             if e == i:
                 if list_rtas[i] == "a":
                     cont[clave] += 3
-                    break
-    return cont
+                    return cont
 
 def sumar_autoestimacion(list_rtas, i, cont, diccio_indice):
     '''
@@ -47,31 +46,30 @@ def sumar_autoestimacion(list_rtas, i, cont, diccio_indice):
     cont
         Diccionario contador.
     '''
-    for lista in diccio_indice:
-        for e in diccio_indice[lista]:
+    for clave in diccio_indice:
+        for e in diccio_indice[clave]:
             if e == i:
                 if list_rtas[i] == "1":
-                    cont[lista] += 1
-                    break
+                    cont[clave] += 1
+                    return cont
                 elif list_rtas[i] == "2":
-                    cont[lista] += 2
-                    break
+                    cont[clave] += 2
+                    return cont
                 elif list_rtas[i] == "3":
-                    cont[lista] += 3
-                    break
+                    cont[clave] += 3
+                    return cont
                 elif list_rtas[i] == "4":
-                    cont[lista] += 4
-                    break
+                    cont[clave] += 4
+                    return cont
                 elif list_rtas[i] == "5":
-                    cont[lista] += 5
-                    break
+                    cont[clave] += 5
+                    return cont
                 elif list_rtas[i] == "6":
-                    cont[lista] += 6
-                    break
+                    cont[clave] += 6
+                    return cont
                 else:
-                    cont[lista] += 7
-                    break
-    return cont
+                    cont[clave] += 7
+                    return cont
 
 def clasif_rtas(list_rtas, diccio_indice):
     '''
