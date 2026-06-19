@@ -116,14 +116,25 @@ lista_historia = [
 
 lista_rtas =[]
 
-for elemento in lista_historia:
-    print(elemento)
+for elemento in range(len(lista_historia)):
+    print(lista_historia[elemento])
     rta = input("Ingrese su respuesta: ")
     while rta not in ["a","b","1","2","3","4","5","6","7"]:#cuando sepa en que posicion se tiene que responder que cosa la modifico
         print("respuesta invalida, responder con lo pedido")
-        print(elemento)
+        print(lista_historia[elemento])
         rta = input("ingrese su respuesta: ")
-    lista_rtas.append(rta)
+    if elemento in [0,1,9,10,12,13,15,18,19,21,23,25]:
+        while rta not in ["a","b"]:
+            print("respuesta invalida, responder con a o b")
+            print(lista_historia[elemento])
+            rta = input("ingrese su respuesta: ")
+            lista_rtas.append(rta)
+    else:
+        while rta not in ["1","2","3","4","5","6","7"]:
+            print("respuesta invalida, responder con un numero del 1 al 7")
+            print(lista_historia[elemento])
+            rta = input("ingrese su respuesta: ")
+            lista_rtas.append(rta)
     
 
 try:
