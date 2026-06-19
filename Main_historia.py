@@ -119,10 +119,6 @@ lista_rtas =[]
 for elemento in range(len(lista_historia)):
     print(lista_historia[elemento])
     rta = input("Ingrese su respuesta: ")
-    while rta == None:
-        print("no responder, no es opcional")
-        print(lista_historia[elemento])
-        rta = input("ingrese su respuesta: ")
     if elemento in [0,1,9,10,12,13,15,18,19,21,23,25]:
         while rta not in ["a","b"]:
             print("respuesta invalida, responder con a o b")
