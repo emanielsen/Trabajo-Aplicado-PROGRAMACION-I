@@ -92,7 +92,7 @@ def clasif_rtas(list_rtas, diccio_indice):
     cont = {"R": 0, "A": 0, "I": 0, "S": 0, "E": 0, "C": 0}
     for i in range(len(list_rtas)):
         if list_rtas[i] == None:
-            raise ValueError
+            raise ValueError("Algún tipo de respuesta es incorrecto.")
         if i in [0,1,9,10,12,13,15,18,19,21,23,25]:
             cont = rtas_A_B(list_rtas, i, cont, diccio_indice)
         else:
