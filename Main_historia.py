@@ -19,6 +19,7 @@ mapeo_datasets = {
     'E': dataset_E,
     'C': dataset_C}
 
+
 amigo1 = input("ingrese el nombre de un amigo: ")
 amigo2 = input("ingrese el nombre de otro amigo: ")
 amigo3 = input("ingrese el nombre de un tercer amigo: ")
