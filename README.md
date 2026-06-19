@@ -19,3 +19,4 @@ Diagramas de flujo: en la carpeta "guia de trabajo" se encuentran todos los diag
 
 Uso de IA:
 - Se utilizó la IA para la creación del dataset con el siguiente propt: "Créame una base de datos que contenga los apartados de: personas, personalidad laboral de Holland, carreras elegidas, nivel de satisfacción con la carrera elegida. Como columnas y las filas deben ser una numeración (uno por uno) del total de participantes. Si ya existe una base de datos que contenga eso, no la crees, solo pásamela, si no existe, créala. Si la tenes que crear que sea larga (como una base de datos real)"
+- Además utilizamos la IA para la creación del dashboard interactivo donde se responden las preguntas de la historia. El prompt fue el siguiente:
