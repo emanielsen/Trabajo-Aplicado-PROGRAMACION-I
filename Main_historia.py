@@ -142,9 +142,12 @@ else:
     
 
     
-diccio_indice = {"R":[6,16,18,27,29], "A":[11,13,23,25,28], "I":[3,4,10,14,17], "S": [0,15,22,24,26], "E": [1,2,5,8,9], "C":[7,12,19,20,21] } 
-diccio_cont = clasif_rtas(lista_rtas, diccio_indice) 
 
+diccio_indice = {"R":[6,16,18,27,29], "A":[11,13,23,25,28], "I":[3,4,10,14,17], "S": [0,15,22,24,26], "E": [1,2,5,8,9], "C":[7,12,19,20,21] } 
+try:
+    diccio_cont = clasif_rtas(lista_rtas, diccio_indice)
+except ValueError as e:
+    print(e)
 max_raisec = 0
 for clave in diccio_cont:
     if diccio_cont[clave] > max_raisec:
