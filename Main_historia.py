@@ -124,13 +124,13 @@ for elemento in range(len(lista_historia)):
             print("respuesta invalida, responder con a o b")
             print(lista_historia[elemento])
             rta = input("ingrese su respuesta: ")
-            lista_rtas.append(rta)
+        lista_rtas.append(rta)
     else:
         while rta not in ["1","2","3","4","5","6","7"]:
             print("respuesta invalida, responder con un numero del 1 al 7")
             print(lista_historia[elemento])
             rta = input("ingrese su respuesta: ")
-            lista_rtas.append(rta)
+        lista_rtas.append(rta)
     
 
 try:
