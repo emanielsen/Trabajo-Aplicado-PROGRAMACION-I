@@ -1,10 +1,9 @@
-import streamlit as st
 import pandas as pd
 from src.Clasif_rtas import clasif_rtas
 from src.finales import finales
 from src.Filtrar_Dataset import filtrar_dataset
 from src.Filtrar_Dataset import metricas
-from app_TA import clasif_rtas, procesar_excel, diseño
+from app_TA import diseño
 
 
 archivo = 'data/base_datos_holland_carreras_5000.xlsx'
@@ -143,6 +142,8 @@ else:
     print(final)
     
 
+    
+
 diccio_indice = {"R":[6,16,18,27,29], "A":[11,13,23,25,28], "I":[3,4,10,14,17], "S": [0,15,22,24,26], "E": [1,2,5,8,9], "C":[7,12,19,20,21] } 
 try:
     diccio_cont = clasif_rtas(lista_rtas, diccio_indice)
@@ -158,13 +159,5 @@ if diccio_max_raisec:#chequeo q esto ande
     letra_ganadora = list(diccio_max_raisec.keys())[0]
     dataset_ganador = mapeo_datasets[letra_ganadora]
 
-tab_historia, tab_dashboard = st.tabs(["📖 Desenlace de la Historia", "📊 Tu Dashboard RIASEC"])
 
-with tab_historia:
-        # Aquí meten un mensaje simple para cerrar la pestaña
-    st.success("¡Has completado la aventura! Revisa la otra pestaña para ver tus resultados.")
-
-with tab_dashboard:
-        # LLAMADA A LA FUNCIÓN DE APP_TA QUE ACABAN DE MODIFICAR
-        # Le pasan las variables que ustedes ya calcularon en su flujo
-    diseño(diccio_cont, dataset_ganador, letra_ganadora)
+ds_diseño = diseño(diccio_cont,dataset_ganador, letra_ganadora)
