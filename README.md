@@ -41,5 +41,5 @@ Uso de IA:
     "Actúa como un programador que resuelve problemas. La situacion es esta, necesitamos unir app_TA.py (dashboard final) y app_TA_inicio.py (dashboard inicial), en un mismo archivo.py (algo como app_TA_UNIDO.py). Ambos dashboards se hicieron con Streamlit. Tenemos que utilizar exactamente las mismas funciones que tenemos en el resto de los archivos .py, NO DEBEN SER DISTINTAS. Necesito que generes el código para lograr el objetivo"
 
 Explicaciones adicionales para correr correctamente el programa:
-    MIRAR EL VIDEO ADJUNTO EN LA CARPETA DE "Trabajo Aplicado PROGRAMACION I""
+    MIRAR EL VIDEO ADJUNTO EN LA CARPETA DE "Trabajo Aplicado PROGRAMACION I"
     
