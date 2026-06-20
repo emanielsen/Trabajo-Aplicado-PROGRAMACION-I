@@ -29,7 +29,7 @@ def filtrar_dataset(dataset):
 
 @st.cache_data # Mantiene los datos en memoria para no cargar el excel en cada clic
 def procesar_excel():
-    dataset = pd.read_excel("datos/base_datos_holland_carreras_5000.xlsx")# Asegurate de que el nombre del archivo sea correcto
+    dataset = pd.read_excel("data/base_datos_holland_carreras_5000.xlsx")# Asegurate de que el nombre del archivo sea correcto
     nuevo_dataset = filtrar_dataset(dataset)
     return metricas(nuevo_dataset)
 
