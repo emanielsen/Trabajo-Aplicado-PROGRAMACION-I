@@ -1,0 +1,5 @@
+Las librerías necesarias para hacer correr este trabajo son:
+- streamlit
+- pandas
+- matplotlib
+- numpy
