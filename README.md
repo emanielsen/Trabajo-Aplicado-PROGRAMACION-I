@@ -16,12 +16,19 @@ Descripcion de la fuente de datos:
 El dataset que contiene a los 5mil paricipantes del test de Holland es un archivo de excel creado con IA y guardado en la carpeta "datos" dentro del repositorio.
 
 Instrucciones para ejecutar el programa:
-Se debera tener anaconda o similares, desde el Powershell poner la ubicacion donde este el archivo "app_TA_UNIDO", llamar a streamlit y esperar hasta que se habra en una pestaña aparte. Deberia de quedar algo asi: "cd C:\Users\usuario\OneDrive\Documentos\GitHub\Trabajo-Aplicado-PROGRAMACION-I                                               
+Se debera tener anaconda o similares, desde el Powershell poner la ubicacion donde este el archivo "app_TA_UNIDO", llamar a streamlit y esperar hasta que se habra en una pestaña aparte. Deberia de quedar algo asi: "cd C:\Users\usuario\OneDrive\Documentos\GitHub\Trabajo-Aplicado-PROGRAMACION-I
                                                                                                                                                                                                                       (base) PS C:\Users\usuario\OneDrive\Documentos\GitHub\Trabajo-Aplicado-PROGRAMACION-I> streamlit run .\app_TA_UNIDO.py"
- 
+
 Librerias utilizadas: Se utilizo la libreria de PANDAS, STREAMLIT, MATPLOTLIB y NUMPY
 
 Estructura del repositorio: Dentro de la carpeta del trabajo se encuentra el archivo" Main_historia", el archivo "app_TA_UNIDO", la carpeta "src" que contiene los archivos de "Clasif_rtas", "Filtrar_Dataset" y "finales", la carpeta "data" que sostiene la base de datos creada por la IA y la carpeta "guia de trabajo" que tiene los diagramas de flujo de todos los archivos estilo ".py".
+
+Distribución de tareas:
+TODOS: Un primer diseño del diagrama de flujo, desarrollo de la historia, preguntas para la historia, búsqueda de bibliografía, creación de la presentación.
+Pilar Calderaro: 
+Valentina Entrala: 
+Ema Nielsen: 
+Tomás López Durand: Creación de Filtrar_Dataset.py
 
 Explicación breve de las funciones principales:
 -Finales: Selecciona los que final se debe otorgar, dependiendo de las respuestas de 2 preguntas especificas.
