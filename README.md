@@ -25,7 +25,7 @@ Estructura del repositorio: Dentro de la carpeta del trabajo se encuentra el arc
 
 Distribución de tareas:
 TODOS: Un primer diseño del diagrama de flujo, desarrollo de la historia, preguntas para la historia, búsqueda de bibliografía, creación de la presentación.
-Pilar Calderaro: 
+Pilar Calderaro: Main_historia.py y finales.py
 Valentina Entrala: 
 Ema Nielsen: 
 Tomás López Durand: Creación de Filtrar_Dataset.py
